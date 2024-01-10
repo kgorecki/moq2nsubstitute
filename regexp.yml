@@ -1,0 +1,52 @@
+items:
+  - name: Using
+    find: using Moq;
+    replace: using NSubstitute;
+  - name: Mock.Of
+    find: Mock.Of<(.+?)>\((.*?)\)
+    replace: Substitute.For<$1>($2)
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
+  - name:
+    find:
+    replace:
